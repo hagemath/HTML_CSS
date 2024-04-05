@@ -1,0 +1,84 @@
+@charset "UTF-8";
+:root{
+    --cor001: black;
+    --cor002: white;
+    --cor003: #167BF7;
+    --cor004: #C0C0C0;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--cor001);
+    background-image: url(../assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 98vw;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.titulo_inicial{
+    color: var(--cor002);
+    padding-bottom: 40px;
+    font-size: 28px;
+    width: 588px;
+    margin-top: 100px;
+}
+
+.principal{
+    height: 431px;
+    width: 588px;
+
+    margin-top: 100px;
+    margin-left: 54px;
+    display:  flex;
+    flex-direction: column;
+}
+
+
+img{
+    margin-bottom: 40px;
+    width: 348px;
+    height: 100px;
+    
+}
+.imagem_membros{
+    width: 1440px;
+    height: 680px;
+    margin-top: -500px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.combo{
+    background-color: var(--cor003);
+    width: 512px;
+    height: 50px;
+    border-radius: 8px;
+}
+.normal{
+    border: var(--cor002) solid 1px;
+    width: 511px;
+    height: 50px;
+    border-radius: 8px;
+}
+.assinar{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 16px;
+}
+.letra_pequena{
+    font-size: 12px;
+    color: var(--cor004);
+    text-align: center;
+}
